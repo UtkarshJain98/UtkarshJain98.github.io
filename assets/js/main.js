@@ -15,6 +15,14 @@
 		xxsmall:	'(max-width: 360px)'
 	});
 
+	$(document).ready(function() {
+    $('sendEmail').click(function() {
+        $('emailform').attr('action',
+                       'mailto:utkjain@gmail.com?subject=From%20Website' + '&body=' + $('message').val());
+        $('emailform').submit();
+    });
+});
+
 	$(function() {
 
 		var	$window = $(window),

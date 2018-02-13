@@ -91,19 +91,10 @@
 								</p>
 							</article>
 
-						<!-- Resume -->
-							<article id="resume">
-								<h2 class="major">Resume</h2>
-								<embed src="resume.pdf" type="application/pdf" width="500" height="auto" />
-								<p>
-
-								</p>
-							</article>
-
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
+								<form method="post" action="mailto:utkjain@gmail.com" enctype="text/plain" id="emailform">
 									<div class="field half first">
 										<label for="name">Name</label>
 										<input type="text" name="name" id="name" />
@@ -117,7 +108,7 @@
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="submit" value="Send Message" class="special" id="sendEmail"/></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
