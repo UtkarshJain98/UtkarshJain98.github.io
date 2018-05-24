@@ -585,6 +585,7 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
+			font-size: 1.4em;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -738,10 +739,10 @@
 					border-radius: 100%;
 					box-shadow: inset 0 0 0 1px #ffffff;
 					display: inline-block;
-					height: 2.25rem;
-					line-height: 2.25rem;
+					height: 3.25rem;
+					line-height: 3.25rem;
 					text-align: center;
-					width: 2.25rem;
+					width: 3.25rem;
 				}
 
 					ul.icons li a:hover {
@@ -1075,7 +1076,7 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-		  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.jpg"); 
+		  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.jpg");
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
